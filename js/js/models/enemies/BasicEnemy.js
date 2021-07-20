@@ -1,3 +1,0 @@
-class BasicEnemy extends Enemy {
-
-}
