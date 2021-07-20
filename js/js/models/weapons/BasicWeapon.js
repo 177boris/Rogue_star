@@ -1,0 +1,3 @@
+class BasicWeapon extends Weapon {
+
+}
