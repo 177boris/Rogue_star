@@ -1,0 +1,50 @@
+{
+"frames": {
+	"enemy-back-walk": {
+		"frame": {"x":49, "y":0, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-back": {
+		"frame": {"x":0, "y":0, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-front-walk": {
+		"frame": {"x":49, "y":98, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-front": {
+		"frame": {"x":98, "y":0, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-left-walk": {
+		"frame": {"x":98, "y":49, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-left": {
+		"frame": {"x":49, "y":49, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-right-walk": {
+		"frame": {"x":0, "y":49, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	},
+	"enemy-right": {
+		"frame": {"x":0, "y":98, "w":48, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+		"sourceSize": {"w":48,"h":48}
+	}
+
+},
+"meta": {
+	"image": "sprites.png",
+	"size": {"w": 147, "h": 147},
+	"scale": "1"
+}
+}

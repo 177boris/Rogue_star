@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <title>Rogue Star</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+    <!--    <script type="text/javascript" src="js/Boot.js"></script>-->
+    <!--    <script type="text/javascript" src="js/Preloader.js"></script>-->
+    <!--    <script type="text/javascript" src="js/DatabaseManager.js"></script>-->
+    <!--    <script type="text/javascript" src="js/ScoreTimeManager.js"></script>-->
+    <script type="text/javascript" src="js/menus/Menu.js"></script>
+    <script type="text/javascript" src="js/menus/IntroMenu.js"></script>
+    <!--    <script type="text/javascript" src="js/menus/LoginMenu.js"></script>-->
+    <!--    <script type="text/javascript" src="js/menus/LeaderboardMenu.js"></script>-->
+    <script type="text/javascript" src="js/menus/GameOverMenu.js"></script>
+    <script type="text/javascript" src="js/levels/Level.js"></script>
+    <!--    <script type="text/javascript" src="js/levels/HUD.js"></script>-->
+    <script type="text/javascript" src="js/levels/Level1.js"></script>
+    <script type="text/javascript" src="js/models/bullet/Bullet.js"></script>
+    <script type="text/javascript" src="js/models/Character.js"></script>
+    <!--    <script type="text/javascript" src="js/models/weapons/Weapon.js"></script>-->
+    <!--    <script type="text/javascript" src="js/models/weapons/BasicWeapon.js"></script>-->
+    <script type="text/javascript" src="js/models/enemies/Enemy.js"></script>
+    <!--    <script type="text/javascript" src="js/models/enemies/BasicEnemy.js"></script>-->
+    <script type="text/javascript" src="js/game.js"></script>
+    <style>
+        .game{
+            position: relative;
+            display: inline-block;
+        }
+        .text{
+            position: relative;
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+            padding: 20px;
+        }
+        .parent{
+            text-align: center;
+            padding: 50px;
+        }
+        .title{
+            text-align: center;
+            background-color: gray;
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+        }
+        .body{
+            background-color: black;
+        }
+        .heading{
+            color: white;
+            font-size: 100px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: black;
+        }
+        .subtitle{
+            color: white;
+            color: yellow;
+            font-size: 35px;
+            font-family: "Lucida Console";
+            padding-top: 20px;
+            padding-bottom: 20px;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title" class="title">
+        <div class="heading">Rogue Star</div>
+        <div class="subtitle">Death is Inevitable</div>
+    </div>
+    <div id="parent" class="parent">
+        <div id=game class="game"></div>
+    </div>
+
+    <div id="text" class="text">
+        Controls:<br><br>
+        Movement: Arrow keys<br>
+        Fire weapon: Space bar<br><br><br>
+
+        Instructions: <br><br>
+        Kill as many aliens as you can in the time limit
+    </div>
+</body>
+</html>
